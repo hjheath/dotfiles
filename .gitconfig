@@ -1,0 +1,9 @@
+[alias]
+	co = checkout
+	st = status
+	cp = cherry-pick
+	po = push origin HEAD
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[user]
+	name = Henry Heath
+	email = henry@optimal.ag
